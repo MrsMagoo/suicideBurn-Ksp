@@ -53,9 +53,11 @@ while pouso == False:
     acel_1 = max_thrust() / massa()
     aceleracao = acel_1 - gravidade()
     teste = abs((velo_atual ** 2) / ( 3 * aceleracao))
-    erro = (terminal_velocity() * ( (massa())  / 10000 ))
+    #erro = (terminal_velocity() * ( (massa())  / 10000 ))
+    #erro = (impulso() - 170 ) # 180 deu boa
+    erro = (velocidade())
     '''# / 10000) ) # grande 10000 '''
-    dis_burn = (teste + erro + 80) #NAVE GRANDE 160 funcionando com nave pequena( gracas aos if de velocidade )
+    dis_burn = (teste + erro + 70)  #aparenta q o 70 é a altura q ele quase termina o suicide, aonde comeca a atuar os if's de pouso suave
     #variavel q na nave grande seja igual a +ou= 160 ***
     print('altura atual: %2.f' % (altura_atual))
     print('altura burn: %2.f' % (dis_burn))
