@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
-# Controlador PID
+'''
+--- Controlador PID ---
+Codigo original PesteRenam
+Traduzido Por Mauricio Mazur e Andrey Oliveira
+'''
 import time
 universal = float()
 valorEntrada = float()
