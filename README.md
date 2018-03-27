@@ -1,5 +1,11 @@
 # suicideBurn-Ksp
-codigo simples em python que executa o suicide burn no Ksp com o mod Krpc \
- funcionando com naves pessadas e acho q so em kerbin, testei em mun e em duna e não funcionou :( \
- (ela é baseada na distancia do chao + uma conta louca pra magem de erro + 50, porem pode bugar e sua nave acelerar pra cima, ou cair com tudo no châo e exprodir, mas a direçao ja ta certinha( com o SAS), funcina melhor com naves mais pesadas, naves com menos de 1t não ta funcinando corretamente, recomendo aeroFreios** ) \  
+Codigo simples que executa o suicideBurn no KSP com o MOD KRPC /
+é Preciso:/
+- Kerbal Space Program (testado na versao 1.4.0)/
+- mod kRPC (testado na versão 0.4.4)/
+- Testado no Python 2.7 https://www.python.org/download/releases/2.7/ /
+/
+Codigo original é do PesteRenam e foi escrito em java (https://github.com/Pesterenan/Suicide-Burn-KSP) / 
+Traduzido para python por mim e Andrey Oliveira  (https://github.com/aqualocko/KSP-KRPC-PID-SUICIDE-BURN-PYTHON)  /
+
 ~SirMazur
