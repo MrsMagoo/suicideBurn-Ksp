@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+'''
+Suicide Burn
+Codigo original PesteRenam
+Traduzido Por Mauricio Mazur e Andrey Oliveira
+'''
 import krpc, time
 import controlePID
 nome = 'sb'
@@ -23,7 +28,7 @@ pousado_agua = conn.space_center.VesselSituation.splashed
 pousado = conn.space_center.VesselSituation.landed
 prelancamento = conn.space_center.VesselSituation.pre_launch
 distanciaDaQueima = float()
-distanciaPouso = 10 # altura hover
+distanciaPouso = 50 # altura hover
 TWRMax = float()
 #from PID import ControlePID
 from controlePID import ControladorPID
