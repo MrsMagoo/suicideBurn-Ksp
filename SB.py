@@ -76,15 +76,15 @@ class suicideBurn:
 
 
             # Imprimir informacoes
-            print "TWR           : %2.f" % TWRMax
-            print "Dist. Queima  : %f" % distanciaDaQueima
-            print "Altitude Voo  : %3.f" % surAlt()
-            print "Correcao      : ",  correcao #PID.saidaPID(UT(), 0.025)
+            print("TWR           : %2.f" % TWRMax)
+            print("Dist. Queima  : %f" % distanciaDaQueima)
+            print("Altitude Voo  : %3.f" % surAlt())
+            print("Correcao      : ",  correcao) #PID.saidaPID(UT(), 0.025)
 
             novaAcel = (1 / TWRMax + correcao) # <--------------------------------------------    calculo de aceleracao
 
-            print "Acc Calculada : %f" % novaAcel
-            print "                  "
+            print("Acc Calculada : %f" % novaAcel)
+            print("                  ")
             if situacao() == pousado or situacao() == pousado_agua:
                 controle.throttle = 0
                 pouso = True
